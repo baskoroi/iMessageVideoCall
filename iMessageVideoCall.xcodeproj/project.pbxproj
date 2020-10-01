@@ -15,6 +15,7 @@
 		CC1A19952525A4E900161218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1A19932525A4E900161218 /* LaunchScreen.storyboard */; };
 		CC1A19A02525A4E900161218 /* iMessageVideoCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A199F2525A4E900161218 /* iMessageVideoCallTests.swift */; };
 		CC1A19AB2525A4E900161218 /* iMessageVideoCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A19AA2525A4E900161218 /* iMessageVideoCallUITests.swift */; };
+		CC1A19C02525A7D000161218 /* PracticeMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A19BF2525A7D000161218 /* PracticeMatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CC1A19A62525A4E900161218 /* iMessageVideoCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMessageVideoCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1A19AA2525A4E900161218 /* iMessageVideoCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageVideoCallUITests.swift; sourceTree = "<group>"; };
 		CC1A19AC2525A4E900161218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1A19BF2525A7D000161218 /* PracticeMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeMatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,7 @@
 			children = (
 				CC1A19882525A4E800161218 /* AppDelegate.swift */,
 				CC1A198A2525A4E800161218 /* SceneDelegate.swift */,
-				CC1A198C2525A4E800161218 /* ContentView.swift */,
+				CC1A19BB2525A7B100161218 /* Views */,
 				CC1A198E2525A4E900161218 /* Assets.xcassets */,
 				CC1A19932525A4E900161218 /* LaunchScreen.storyboard */,
 				CC1A19962525A4E900161218 /* Info.plist */,
@@ -134,6 +136,15 @@
 				CC1A19AC2525A4E900161218 /* Info.plist */,
 			);
 			path = iMessageVideoCallUITests;
+			sourceTree = "<group>";
+		};
+		CC1A19BB2525A7B100161218 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC1A198C2525A4E800161218 /* ContentView.swift */,
+				CC1A19BF2525A7D000161218 /* PracticeMatchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC1A19892525A4E800161218 /* AppDelegate.swift in Sources */,
+				CC1A19C02525A7D000161218 /* PracticeMatchView.swift in Sources */,
 				CC1A198B2525A4E800161218 /* SceneDelegate.swift in Sources */,
 				CC1A198D2525A4E800161218 /* ContentView.swift in Sources */,
 			);
