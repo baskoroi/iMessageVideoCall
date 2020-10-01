@@ -38,8 +38,8 @@ struct ContentView: View {
         }
     }
     
-    private func callViaFaceTime(at phoneNumber: String = "+6281806436271") {
-        if let faceTimeURL = URL(string: "facetime://\(phoneNumber)") {
+    private func callViaFaceTime(at emailAddress: String = "rakawidyap@gmail.com") {
+        if let faceTimeURL = URL(string: "facetime://\(emailAddress)") {
             
             if UIApplication.shared.canOpenURL(faceTimeURL) {
                 
